@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let str = "race car"
+        let viewModel = ViewModel()
+        let result = viewModel.isSentencePalindrome(str: str)
+        print(result)
     }
 
     override func didReceiveMemoryWarning() {

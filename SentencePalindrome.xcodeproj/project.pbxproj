@@ -14,6 +14,7 @@
 		D3585BE2213DA4770026AB87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3585BE0213DA4770026AB87 /* LaunchScreen.storyboard */; };
 		D3585BED213DA4770026AB87 /* SentencePalindromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3585BEC213DA4770026AB87 /* SentencePalindromeTests.swift */; };
 		D3585BF8213DA4A40026AB87 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3585BF7213DA4A40026AB87 /* ViewModel.swift */; };
+		D3585BFC213DAAAF0026AB87 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3585BF9213DAA6A0026AB87 /* ViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		D3585BEC213DA4770026AB87 /* SentencePalindromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentencePalindromeTests.swift; sourceTree = "<group>"; };
 		D3585BEE213DA4770026AB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3585BF7213DA4A40026AB87 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		D3585BF9213DAA6A0026AB87 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				D3585BD7213DA4760026AB87 /* AppDelegate.swift */,
 				D3585BD9213DA4760026AB87 /* ViewController.swift */,
 				D3585BF7213DA4A40026AB87 /* ViewModel.swift */,
+				D3585BF9213DAA6A0026AB87 /* ViewModelTests.swift */,
 				D3585BDB213DA4760026AB87 /* Main.storyboard */,
 				D3585BDE213DA4770026AB87 /* Assets.xcassets */,
 				D3585BE0213DA4770026AB87 /* LaunchScreen.storyboard */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3585BFC213DAAAF0026AB87 /* ViewModelTests.swift in Sources */,
 				D3585BED213DA4770026AB87 /* SentencePalindromeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
